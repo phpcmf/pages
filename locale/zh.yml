@@ -1,0 +1,38 @@
+cmf-pages:
+  admin:
+    edit_page:
+      content_label: => cmf-pages.ref.content
+      content_placeholder: => cmf-pages.ref.content
+      delete_page_button: 删除页面
+      delete_page_confirmation: "确定要删除此页面吗？"
+      hidden_label: 保存草稿
+      restricted_label: 访问限制（前往权限页面设置谁可以访问自定义页面）
+      html_label: 启用 HTML
+      set_as_home_page_confirmation: "确定要将此页面设为首页吗？"
+      set_as_home_page_done: 首页更换成功
+      slug_label: => cmf-pages.ref.slug
+      slug_placeholder: => cmf-pages.ref.slug
+      submit_button: => core.ref.save_changes
+      title: => cmf-pages.ref.create_page
+      title_label: => cmf-pages.ref.title
+      title_placeholder: => cmf-pages.ref.title
+      url_label: => cmf-pages.ref.url
+      url_placeholder: => cmf-pages.ref.url
+    pages:
+      create_button: => cmf-pages.ref.create_page
+    pages_list:
+      empty_text: 这里还没有内容。
+      title: => cmf-pages.ref.title
+    permissions:
+      restricted: 访问自定义静态页面
+    badges:
+      hidden: 草稿
+      restricted: 部分人可见
+
+  ref:
+    content: 内容
+    create_page: 新建页面
+    pages: 自定义页面
+    slug: 固定链接地址（Slug）
+    title: 页面标题
+    url: 链接

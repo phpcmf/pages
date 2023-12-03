@@ -1,0 +1,30 @@
+{
+    "name": "cmf/pages",
+    "description": "使用 PHPCmf 创建自定义页面",
+    "keywords": [
+        "Pages"
+    ],
+    "type": "cmf-extension",
+    "license": "MIT",
+    "require": {
+        "cmf/core": "^1.0",
+        "ext-json": "*"
+    },
+    "homepage": "https://phpcmf.cn",
+    "autoload": {
+        "psr-4": {
+            "Cmf\\Pages\\": "src/"
+        }
+    },
+    "extra": {
+        "cmf-extension": {
+            "title": "页面",
+            "category": "feature",
+            "icon": {
+                "name": "far fa-file-alt",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            }
+        }
+    }
+}
