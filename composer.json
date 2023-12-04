@@ -1,6 +1,6 @@
 {
     "name": "cmf/pages",
-    "description": "使用 PHPCmf 创建自定义页面",
+    "description": "创建自定义页面",
     "keywords": [
         "Pages"
     ],
